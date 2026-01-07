@@ -1,0 +1,15 @@
+{
+  "task_type": "dual_task",
+  "pp_class_names": {
+    "0": "无污染",
+    "1": "轻微浓度",
+    "2": "严重浓度"
+  },
+  "pe_class_names": {
+    "0": "无污染",
+    "1": "轻微浓度",
+    "2": "严重浓度"
+  },
+  "train_samples": 112,
+  "val_samples": 38
+}

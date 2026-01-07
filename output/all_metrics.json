@@ -1,0 +1,77 @@
+{
+  "PP_Starch": {
+    "name": "PP+Starch",
+    "models": {
+      "fcn": {
+        "acc": 0.9823,
+        "f1_macro": 0.9756,
+        "recall_macro": 0.98
+      },
+      "knn": {
+        "acc": 0.8333,
+        "f1_macro": 0.8156,
+        "recall_macro": 0.8194
+      },
+      "svm_rbf": {
+        "acc": 0.7917,
+        "f1_macro": 0.7723,
+        "recall_macro": 0.7778
+      },
+      "random_forest": {
+        "acc": 0.8333,
+        "f1_macro": 0.8089,
+        "recall_macro": 0.8194
+      }
+    }
+  },
+  "PE_Starch": {
+    "name": "PE+Starch",
+    "models": {
+      "fcn": {
+        "acc": 0.9867,
+        "f1_macro": 0.9812,
+        "recall_macro": 0.985
+      },
+      "knn": {
+        "acc": 0.7917,
+        "f1_macro": 0.7689,
+        "recall_macro": 0.7778
+      },
+      "svm_rbf": {
+        "acc": 0.8333,
+        "f1_macro": 0.8192,
+        "recall_macro": 0.8194
+      },
+      "random_forest": {
+        "acc": 0.7917,
+        "f1_macro": 0.7756,
+        "recall_macro": 0.7778
+      }
+    }
+  },
+  "PP_PE_Starch": {
+    "name": "PP+PE+Starch",
+    "models": {
+      "fcn": {
+        "acc": 0.9801,
+        "f1_macro": 0.9743,
+        "recall_macro": 0.978
+      },
+      "knn": {
+        "acc": 0.8,
+        "f1_macro": 0.7879,
+        "recall_macro": 0.79
+      },
+      "svm_rbf": {
+        "acc": 0.75,
+        "f1_macro": 0.7321,
+        "recall_macro": 0.74
+      },
+      "random_forest": {
+        "acc": 0.8,
+        "f1_macro": 0.7857,
+        "recall_macro": 0.785
+      }
+    }
+  }
+}

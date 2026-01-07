@@ -1,0 +1,78 @@
+# =====================================================
+# Spectral-FCN 项目 Git 忽略配置
+# =====================================================
+
+# -----------------
+# 数据集（不公开）
+# -----------------
+dataset/
+test_dataset/
+
+# -----------------
+# Python 缓存
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------
+# 虚拟环境
+# -----------------
+.env
+.venv
+env/
+venv/
+ENV/
+
+# -----------------
+# IDE 配置
+# -----------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# -----------------
+# 系统文件
+# -----------------
+.DS_Store
+Thumbs.db
+nul
+*.log
+
+# -----------------
+# 模型输出（可选忽略）
+# -----------------
+# output/
+# test_output/
+
+# -----------------
+# Jupyter Notebook
+# -----------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -----------------
+# 其他
+# -----------------
+.spec-workflow/
+*.tmp
+*.temp
